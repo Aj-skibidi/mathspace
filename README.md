@@ -42,17 +42,17 @@
 
 You must run these commands on your server:
 
-```bash
+bash
 git clone https://github.com/UseInterstellar/Interstellar
 cd Interstellar
-```
+
 
 #### Ad-Free Deployment
 
-```bash
+bash
 git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
 cd Interstellar
-```
+
 
 Next depending on your package manager, run one of the following commands:
 
@@ -69,10 +69,10 @@ bun start
 
 If you are using pnpm, run the following commands:
 
-```bash
+bash
 pnpm i
 pnpm start
-```
+
 
 #### npm
 
@@ -85,10 +85,10 @@ npm run start
 
 ### Updating
 
-```bash
+bash
 cd Interstellar
 git pull --force --allow-unrelated-histories # This may overwrite your local changes
-```
+
 
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/UseInterstellar/Interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/UseInterstellar/Interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
